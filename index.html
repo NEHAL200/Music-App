@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyMusic App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo2.jpg" alt="Spotify">MyMusic</li>
+            <li>Home</li>
+        <li>About</li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+           
+           <div class="songList"><h1>Best of Ranjit</h1>
+           <div class="songItemContainer">
+
+        <div class="songItem"><img src="covers/1.jpg" alt="1">
+           <span class="songname">Let me Love You</span>
+        <span class="songListPlay"><span class="timestamp">05:34    <i id="0" class="far songitemplay fa-play-circle"></i></span</span></div>
+
+        <div class="songItem"><img src="covers/2.jpg" width="15" height="50" alt="1">
+           <span class="songname">Let me Love You</span>
+        <span class="songListPlay"><span class="timestamp">05:34  <i  id="1" class="far songitemplay fa-play-circle"></i></span></span></div>
+
+        <div class="songItem"><img src="covers/3.jpg" alt="1">
+           <span class="songname">Let Me Love You</span>
+        <span class="songListPlay"><span class="timestamp">05:34    <i id="2" class="far songitemplay fa-play-circle"></i></span></span></div>
+
+        <div class="songItem"><img src="covers/4.jpg" alt="1">
+           <span class="songname"> Let Me Love You</span>
+        <span class="songListPlay"><span class="timestamp">05:34    <i id="3" class="far songitemplay fa-play-circle"></i></span></span></div>
+           </div>
+        </div>
+        
+           <div class="songBanner"></div>
+
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="progress" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- /*fontawesome icons*/ -->
+            <i class ="fa-solid fa-3x fa-angles-left" id="previous"></i>
+            <i class="bi fa-4x bi-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-angles-right" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="GIF2.gif" width="50px" alt="" id="Gif"> <span id="mastersongname">Let Me Love you</span> 
+
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/f2542fec85.js" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
